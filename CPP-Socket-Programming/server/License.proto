@@ -1,0 +1,9 @@
+syntax = "proto2";
+
+package license;
+
+message License {
+	required int32 global_nodes = 1;
+	required int32 node_sessions = 2;
+	required int32 node_session_rate= 3;
+}
